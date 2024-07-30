@@ -1,0 +1,49 @@
+
+
+.latest-news{
+    margin-top: 30px
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    margin-left: 30px
+}
+
+.see-more {
+    display: flex;
+    padding-left: 75%;
+    align-items: center;
+}
+
+.see-more p {
+    justify-content: left;
+}
+
+.see-more img {
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.news-container{
+    display: flex;
+    margin-left: 30px
+
+}
+
+.news{
+    width: 30%;
+    margin-left: 60px;
+    margin-right: 50px;
+    text-align: left;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.date{
+    color: rgb(32, 30, 30)
+}

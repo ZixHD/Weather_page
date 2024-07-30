@@ -1,0 +1,103 @@
+
+.provide-title{
+  display: flex;
+
+}
+
+.App-header{
+  text-align: center;
+  border: 0.5px lightgray solid;
+  border-top: 0;
+  margin-left: 10%;
+  margin-right: 10%
+}
+
+.provide-title h1{
+  padding-top: 100px;
+  margin-left:1%;
+  font-size: 48px;
+  text-align: left;
+}
+
+.provide-title p{
+  padding-top: 140px;
+  margin-right:5%;
+  text-align: left;
+  font-size: 18px
+}
+
+
+
+.search{
+  margin-left: 5px;
+  margin-top: 100px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid lightgray;
+  
+  width: 35%;
+  height: 70px;
+  
+}
+.search input{
+  height: 3rem;
+  margin-top: 2%;
+  width: 250px;
+  border: 0;
+}
+
+.search button{
+  width: 10rem;
+  height: 3rem;
+  background-color: rgb(14, 21, 43);
+  color: white;
+  border: 1pc;
+}
+
+
+.search-icon{
+  width: 15px;
+  padding-right: 20px;
+}
+
+.recent-place{
+  display: flex;
+}
+
+
+.search-recent-container{
+  display: flex;
+  padding-bottom: 30px;
+  border-bottom: 1px lightgray solid;
+  
+}
+
+.recent{
+  margin-left: 20%;
+}
+
+.recent-place p{
+  font-size:24px
+}
+
+.recent-place img{
+  width: 25px;
+  height: 25px;
+  margin-left: 500px;
+  margin-top: 25px
+}
+
+.places-container{
+  display: flex;
+}
+.place{
+  border: 1px solid lightblue;
+  
+  width: 200px;
+  height: 200px;
+  margin-right: 30px;
+}
+
+.place p{
+  font-size: 24px;
+  margin-top: 25px;
+}
